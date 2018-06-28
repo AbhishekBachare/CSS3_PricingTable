@@ -1,0 +1,27 @@
+
+  # box-sizing: border-box;
+    (1) for including padding inside border.
+
+  # box-shadow :
+
+    (1) box-shadow: 5px 10px;
+      1. The first value is the horizontal offset .
+      2. The second value is the vertical offset.
+      3. The shadow color will be inherited from the text color.
+
+    (2) box-shadow: 5px 10px #888888;
+      1. You can also define the color of the shadow.
+
+    (3) CSS Syntax :
+
+      box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+
+    (4) box-shadow: 10px 10px 8px #888888;
+      1. The third value is for "blur effect".
+
+    (5) box-shadow: 10px 10px 8px 10px #888888;
+      1. The optional fourth value defines the spread of the shadow.
+
+    (6) "inset" property :
+      1. example : box-shadow: 5px 10px 20px red inset;
+      2. reverses shadow effect inside box.
